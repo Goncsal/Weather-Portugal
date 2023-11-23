@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Weather App</title>
+  </head>
+  <body style="background-image: url(https://cdn.nimbusthemes.com/2017/09/09233304/rsz_free_nature_backgrounds_-_cardinal_by_unsplash1.jpg); background-repeat:no-repeat; background-size:cover;">
+    <div>
+        <div class="container">
+            <div>
+                <div class="card" style="height:300px; margin: 20%;border-radius: 30px;opacity: 70%;background-color:black">
+                    <div class="card-header justify-content-center rounded-6" style="text-align: center;color: white;">
+                        Weather
+                    </div>
+                    <div class="card-body justify-content-center rounded-5" style="text-align: center; border-radius: 100px;height: max-content;">     
+                        <select id="cityselector" type="option" placeholder="Localização" style="border-radius: 40px; margin: 5px;background-color:white; text-align: center;opacity: 80%;width: 50%;height: 50px;"/>
+                          <option value="Aveiro">Aveiro</option>
+                          <option value="Porto">Porto</option>
+                          <option value="Lisboa">Lisboa</option>
+                          <option value="Ponta Delgada">Ponta Delgada</option>
+                      </select><button id="botao" style="border-radius: 40px; width: 8%;height: 50px;min-width: 30px;"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                        
+                        <br>
+                        <h2 id="temp" style="color: white;margin-top: 10px;">__º</h2>
+                        <h6 id="weather"style="color: white;">Tempo:</h6>
+                        
+                        
+                        <div style="width: 50%;float: left;color:white;" ><h5 id="humidade"></h5><i class="fa fa-tint" aria-hidden="true"></i></div>
+
+                        <div  style="color: white;"><h5 id="ventos"> </h5><i class="fa-solid fa-wind"></i></div>
+                        
+                                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  <script src="https://kit.fontawesome.com/a62159914b.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+  </body>
+</html>
